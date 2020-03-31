@@ -13,7 +13,7 @@ body {
 }
 
 .content-section {
-  padding-top: 7.5rem;
+  padding-top: 6.5rem;
   padding-bottom: 7.5rem;
 }
 
@@ -85,7 +85,7 @@ h6 {
   position: relative;
   display: table;
   width: 100%;
-  height: auto;
+  height: 100vh;
   padding-top: 8rem;
   padding-bottom: 8rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/resizetest22.png");
@@ -322,34 +322,35 @@ footer.footer {
 }
 */
 
-footer.footer .social-link-youtube {
+
+section.content-socialmedia .social-link-youtube {
   display: block;
-  height: 4rem;
-  width: 4rem;
-  line-height: 4.3rem;
-  font-size: 1.5rem;
+  height: 6.5rem;
+  width: 6.5rem;
+  line-height: 6.5rem;
+  font-size: 3rem;
   background-color: #cd201f;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-footer.footer .social-link-instagram {
+section.content-socialmedia .social-link-instagram {
   display: block;
-  height: 4rem;
-  width: 4rem;
-  line-height: 4.3rem;
-  font-size: 1.5rem;
+  height: 6.5rem;
+  width: 6.5rem;
+  line-height: 6.5rem;
+  font-size: 3rem;
   background-color: #e4405f;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-footer.footer .social-link-facebook {
+section.content-socialmedia .social-link-facebook {
   display: block;
-  height: 4rem;
-  width: 4rem;
-  line-height: 4.3rem;
-  font-size: 1.5rem;
+  height: 6.5rem;
+  width: 6.5rem;
+  line-height: 6.5rem;
+  font-size: 3rem;
   background-color: #3b5998;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);

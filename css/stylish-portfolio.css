@@ -99,6 +99,7 @@ h6 {
     position: relative;
     display: table;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/logoGonzoNowe-min.png");
+    background-color: #9cc1db;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;

@@ -12,6 +12,12 @@ body {
   padding: 1.25rem 2.5rem;
 }
 
+@media(max-width: 365px){
+  .btn-xl {
+    padding: 0.65rem 1.25rem;
+  }
+}
+
 .content-section {
   padding-top: 6.5rem;
   padding-bottom: 7.5rem;
@@ -346,6 +352,63 @@ section.content-socialmedia .social-link-facebook {
   background-color: #3b5998;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+section.content-socialmedia .social-link-youtube {
+  display: block;
+  height: 6.5rem;
+  width: 6.5rem;
+  line-height: 6.5rem;
+  font-size: 3rem;
+  background-color: #cd201f;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+section.content-socialmedia .social-link-instagram {
+  display: block;
+  height: 6.5rem;
+  width: 6.5rem;
+  line-height: 6.5rem;
+  font-size: 3rem;
+  background-color: #e4405f;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 365px) {
+section.content-socialmedia .social-link-facebook {
+  display: block;
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 2rem;
+  background-color: #3b5998;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+section.content-socialmedia .social-link-youtube {
+  display: block;
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 2rem;
+  background-color: #cd201f;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+section.content-socialmedia .social-link-instagram {
+  display: block;
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 2rem;
+  background-color: #e4405f;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
 }
 
 a {
